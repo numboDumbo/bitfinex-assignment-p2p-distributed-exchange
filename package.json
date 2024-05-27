@@ -1,0 +1,22 @@
+{
+  "name": "bitfinex-assignment-p2p-distributed-exchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "DEBUG=bfx:client node src/client.js",
+    "client:debug": "DEBUG=bfx:* node src/client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "grenache-nodejs-http": "^0.7.13",
+    "grenache-nodejs-link": "^1.0.0",
+    "lodash": "^4.17.21",
+    "prettier": "^2.1.2",
+    "uuid": "^9.0.1"
+  }
+}
